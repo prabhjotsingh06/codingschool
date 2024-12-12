@@ -1,0 +1,104 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Intro to Python Programming",
+      "slug": "intro-to-python-programming",
+      "description": "Get started with Python, one of the most popular and versatile programming languages, in this beginner-friendly course.",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/python.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Web Development Basics",
+      "slug": "web-development-basics",
+      "description": "Learn the fundamentals of web development, including HTML, CSS, and JavaScript, and start building your own websites.",
+      "price": 109.99,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "/courses/web-dev.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Advanced JavaScript Techniques",
+      "slug": "advanced-javascript-techniques",
+      "description": "Take your JavaScript skills to the next level by mastering advanced concepts like closures, promises, and async/await.",
+      "price": 119.99,
+      "instructor": "Emily Johnson",
+      "isFeatured": true,
+      "image": "/courses/js-advanced.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Full Stack Web Development",
+      "slug": "full-stack-web-development",
+      "description": "Learn to build dynamic websites and applications using both front-end and back-end technologies, including React, Node.js, and MongoDB.",
+      "price": 129.99,
+      "instructor": "Mike Brown",
+      "isFeatured": false,
+      "image": "/courses/full-stack.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Data Structures and Algorithms",
+      "slug": "data-structures-and-algorithms",
+      "description": "Master the essential data structures and algorithms every programmer needs to know to solve complex coding problems.",
+      "price": 139.99,
+      "instructor": "Chris Davis",
+      "isFeatured": false,
+      "image": "/courses/data-structures.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Introduction to Machine Learning",
+      "slug": "intro-to-machine-learning",
+      "description": "Dive into the world of AI and machine learning with this beginner-friendly course, covering key concepts and tools.",
+      "price": 149.99,
+      "instructor": "Alex Wilson",
+      "isFeatured": true,
+      "image": "/courses/machine-learning.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Mobile App Development with React Native",
+      "slug": "mobile-app-development-react-native",
+      "description": "Build cross-platform mobile applications using React Native, and learn how to deploy them to the App Store and Google Play.",
+      "price": 159.99,
+      "instructor": "Samantha Miller",
+      "isFeatured": false,
+      "image": "/courses/react-native.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Game Development with Unity",
+      "slug": "game-development-with-unity",
+      "description": "Create interactive 2D and 3D games using Unity, a powerful game engine, and learn the fundamentals of game design.",
+      "price": 169.99,
+      "instructor": "Luke Harris",
+      "isFeatured": true,
+      "image": "/courses/unity-game-dev.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Introduction to Cybersecurity",
+      "slug": "intro-to-cybersecurity",
+      "description": "Learn the basics of cybersecurity, from ethical hacking to data protection, and start your journey into the world of information security.",
+      "price": 179.99,
+      "instructor": "Grace Lee",
+      "isFeatured": false,
+      "image": "/courses/cybersecurity.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Blockchain Development",
+      "slug": "blockchain-development",
+      "description": "Understand the fundamentals of blockchain technology and learn how to develop decentralized applications (dApps) and smart contracts.",
+      "price": 189.99,
+      "instructor": "Ethan Moore",
+      "isFeatured": true,
+      "image": "/courses/blockchain.jpg"
+    }
+  ]
+}
