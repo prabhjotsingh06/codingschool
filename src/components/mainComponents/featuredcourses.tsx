@@ -17,7 +17,7 @@ interface course  {
 function Featuredcourses() {
     const featuredCourses = courseData.courses.filter( (course:course) => course.isFeatured )
   return (
-    <section className='dark:text-white h-[100svh] bg-gray-800 flex items-center flex-col gap-3 justify-end'>
+    <section className='dark:text-white h-[100svh] flex items-center flex-col gap-3 justify-end'>
       <div>
         <h1 className='text-5xl dark:text-green-400'>Featured Courses</h1>
         <p className='text-center mt-5 text-base' >Learn Form Basic</p>

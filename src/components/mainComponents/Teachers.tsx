@@ -49,10 +49,9 @@ const teachers = [
 
 export function Teachers() {
     return (
-        <div className="relative h-[100svh] bg-transparent w-full">
-            <WavyBackground className="h-[95svh] w-svw max-w-4xl mx-auto">
-                <BackgroundBeamsWithCollision className="flex items-center justify-center flex-col">
-                    <div className="bg-transparent flex items-center h-svh w-svw justify-center flex-col">
+        <div className="relative h-[100svh] bg-transparent w-[99svw]">
+            <WavyBackground>
+                <BackgroundBeamsWithCollision className=" bg-transparent flex items-center h-svh w-svw justify-center flex-col">
                     <p className="text-2xl md:text-4xl lg:text-7xl text-white mt-20 font-bold inter-var text-center">
                         Our Teachers
                     </p>
@@ -61,7 +60,6 @@ export function Teachers() {
                     </p>
                     <div className="flex flex-row items-center bg-transparent justify-center mt-10 w-svw">
                         <AnimatedTooltip items={teachers} />
-                    </div>
                     </div>
                 </BackgroundBeamsWithCollision>
             </WavyBackground>

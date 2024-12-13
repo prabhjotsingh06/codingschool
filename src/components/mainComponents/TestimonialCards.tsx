@@ -40,7 +40,7 @@ function TestimonialCards() {
     <section className='h-svh w-[97svw] flex flex-col items-center justify-center'>
         <h1 className='text-3xl md:text-4xl text-center font-bold mb-8'>Success Stories</h1>
       <div className='w-[97svw] '>
-        <div className='w-[97svw] border-2 border-white'>
+        <div className='w-[97svw'>
             <InfiniteMovingCards items={codingSchoolTestimonials} speed='normal' />
         </div>
       </div>
