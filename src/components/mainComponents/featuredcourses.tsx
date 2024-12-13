@@ -1,7 +1,7 @@
 "use client"
 import Link from 'next/link';
 import React from 'react'
-import courseData from "@/data/music.json";
+import courseData from "@/data/code.json";
 import { BackgroundGradient } from '../ui/background-gradient';
 import { Button } from "@/components/ui/moving-border";
 

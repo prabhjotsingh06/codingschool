@@ -37,10 +37,10 @@ function TestimonialCards() {
       ];
       
   return (
-    <section className='h-dvh w-dvw flex flex-col items-center justify-center'>
-        <h1 className='text-3xl md:text-4xl text-center font-bold'>Success Stories</h1>
-      <div className='w-dvh '>
-        <div className='m-10 w-full'>
+    <section className='h-svh w-[97svw] flex flex-col items-center justify-center'>
+        <h1 className='text-3xl md:text-4xl text-center font-bold mb-8'>Success Stories</h1>
+      <div className='w-[97svw] '>
+        <div className='w-[97svw] border-2 border-white'>
             <InfiniteMovingCards items={codingSchoolTestimonials} speed='normal' />
         </div>
       </div>
