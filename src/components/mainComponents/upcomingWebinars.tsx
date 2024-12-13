@@ -57,10 +57,10 @@ function UpcomingWebinars() {
     return (
         <section className='dark:text-white h-[100svh] flex items-center flex-col gap-3 justify-end'>
             <div>
-                <h1 className='text-5xl dark:text-blue-400'>Upcoming Webinars</h1>
+                <h1 className='text-2xl md:text-3xl lg:text-4xl font-semibold dark:text-blue-400'>Upcoming Webinars</h1>
                 <p className='text-center mt-5 text-base' >Boost Yours Skils</p>
             </div>
-            <div className='grid gap-6 lg:grid-cols-3 w-[100svw] justify-center sm:grid-cols-2 grid-cols-1 overflow-auto py-14 px-20 hide-scrollbar'>{
+            <div className='grid gap-6 lg:grid-cols-3 w-[100svw] justify-center sm:grid-cols-2 grid-cols-1 overflow-auto my-8 md:my-14 px-10 md:px-20 rounded-md hide-scrollbar'>{
                 featuredWebinars.map((webinar: webinar) => (
                     <div>
                         <WobbleCard

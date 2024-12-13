@@ -18,9 +18,9 @@ function Featuredcourses() {
     const featuredCourses = courseData.courses.filter( (course:course) => course.isFeatured )
   return (
     <section className='dark:text-white h-[100svh] flex items-center flex-col gap-3 justify-end'>
-      <div>
-        <h1 className='text-5xl dark:text-green-400'>Featured Courses</h1>
-        <p className='text-center mt-5 text-base' >Learn Form Basic</p>
+      <div className='bg-inherit'>
+        <h1 className='lg:text-4xl md:text-3xl text-2xl font-semibold bg-inherit dark:text-green-400'>Featured Courses</h1>
+        <p className='text-center bg-inherit mt-5 text-base' >Learn Form Basic</p>
       </div>
       <div className='grid gap-6 lg:grid-cols-3 w-[100svw] justify-center sm:grid-cols-2 grid-cols-1 overflow-auto py-14 px-20 hide-scrollbar'>
         {featuredCourses.map((course:course) => (

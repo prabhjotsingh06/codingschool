@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import { StickyScroll } from '../ui/sticky-scroll-reveal';
-
+import { BackgroundLines } from "@/components/ui/background-lines";
 function WhyChooseUs() {
   const codingSchoolContent = [
     {
@@ -37,7 +37,9 @@ function WhyChooseUs() {
 
   return (
     <div className='h-svh w-svw flex items-center justify-center'>
+      <BackgroundLines className='h-svh w-svw flex items-center justify-center'>
       <StickyScroll contentClassName='' content={codingSchoolContent} />
+      </BackgroundLines>
     </div>
   )
 }
