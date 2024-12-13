@@ -22,7 +22,7 @@ function Featuredcourses() {
         <h1 className='lg:text-4xl md:text-3xl text-2xl font-semibold bg-inherit dark:text-green-400'>Featured Courses</h1>
         <p className='text-center bg-inherit mt-5 text-base' >Learn Form Basic</p>
       </div>
-      <div className='grid gap-6 lg:grid-cols-3 w-[100svw] justify-center sm:grid-cols-2 grid-cols-1 overflow-auto py-14 px-20 hide-scrollbar'>
+      <div className='grid gap-6 lg:grid-cols-3 w-[100svw] justify-center sm:grid-cols-2 grid-cols-1 overflow-auto py-14 px-20 bg-inherit hide-scrollbar'>
         {featuredCourses.map((course:course) => (
             <div className="rounded-lg">
              <BackgroundGradient className="rounded-[10px] text-center overflow-hidden bg-white p-3 min-h-full dark:bg-gray-800">

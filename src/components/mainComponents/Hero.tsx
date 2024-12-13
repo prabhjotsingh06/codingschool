@@ -8,7 +8,7 @@ import { AuroraBackground } from '../ui/aurora-background';
 function Hero() {
   return (
 
-    <section className='h-[100svh] bg-gray-800 flex rounded-md items-center justify-end overflow-hidden'>
+    <section className='h-[100svh] flex rounded-md items-center justify-end overflow-hidden'>
       <AuroraBackground>
         <motion.div
           initial={{ opacity: 0.0, y: 40 }}
