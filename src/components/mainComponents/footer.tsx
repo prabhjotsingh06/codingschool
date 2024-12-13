@@ -1,7 +1,7 @@
 
 function Footer() {
     return (
-        <footer className='flex flex-col gap-8 justify-center items-center py-8 w-svw h-auto'>
+        <footer className='m-8 flex flex-col gap-8 justify-center items-center py-8 w-svw h-auto'>
                     <div className='flex flex-wrap gap-8 justify-center items-center py-8 w-svw'>
                         <div className='w-60 border-2 dark:border-white p-2 rounded-xl h-72'>
                             <h1 className=' font-semibold text-2xl mb-4'>About Us</h1>
